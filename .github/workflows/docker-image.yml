@@ -5,6 +5,7 @@ on:
     branches: [master, deploy]
   pull_request:
     branches: [master, deploy]
+  workflow_dispatch:
   schedule: # monthly builds
     - cron: '0 2 2 * *'
 
